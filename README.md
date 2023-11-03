@@ -1,4 +1,4 @@
-## Watch the Below Gif For working of the Application
+## Watch the Below Gif For working of the App
 <a href="https://www.youtube.com/watch?v=GaeUzR9szVM&t=77s"><img width = 520 height = 320 src="https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/1bf85c2d-8e01-47c5-843b-6fdf8f6fbf2d"></a>
 
 ## Demo app Link

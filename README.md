@@ -25,7 +25,7 @@ For this Project, I have used 2 Types of Data as mentioned below:
 <li>Users has the option to post their thoughts or Queries in Post Notes Space, also they can see other People's Posts & can delete their Posts according to their Need. I have used Firestore (No SQL Real Time Database) which stores the data in Documents [ Unique Username ] and it includes a Collection that has Post's ordered w.r.t User_ID for each User.
 </ul>
 
-🧩 **Analytic Platform with end - end Data Pipeline For Trending YouTube Video Statistics via Aws Services** ⇢ [ Visit ETL_AWS Folder ]
+🧩 **Analytic Platform with end - end ETL Data Pipeline For Trending YouTube Video Statistics via Aws Services** ⇢ [ Visit ETL_AWS Folder ]
 
 -- in making 
 

@@ -4,13 +4,13 @@
 For this Project I have used 2 Types of Data as mentioned below:
 
 1.) Trending YouTube Video Statistics which is taken from Kaggle
+
+Data Link: Link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 .csv File - Each region’s data is in a separate file. Data includes the video title, channel title, publish time, tags, views, likes and dislikes, description, and comment count.
 Json File - Is in Key - Value format, where for each Region it has 30 nested K-V Pairs which includes the id as a Primary Key and Channel_id & Category Name where the videos are categorised into different Categories like: Film & Animations, Sports, Science & Technology, Entertainment, Music & Many More etc. 
-![image](https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/2cb8459c-ab91-4b4f-bcf4-850a136fb203)
 
-2.) Nlp & Performing Etl Operation On Youtube Statistics Data used Y S D from Kaggle
+2.) Youtube data is scrapped by using Youtube Data Api according to search word entered by the user, for our case i have used ' Data Science '
 
-Link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 
 ### Demo app Link
 

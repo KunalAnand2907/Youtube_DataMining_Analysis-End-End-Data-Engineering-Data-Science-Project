@@ -1,5 +1,9 @@
 ## Youtube 📺 Data Mining,Analysis 📈 End-End Data Engineering & Data Science Project 
 
+### 📌 Demo app Link
+
+<a href="https://youtube-data-mining-analysis.streamlit.app/"><img src="https://camo.githubusercontent.com/767be70c92254555bd347ab07908fec67854c2264b77702581bd230fd7eac54f/68747470733a2f2f7374617469632e73747265616d6c69742e696f2f6261646765732f73747265616d6c69745f62616467655f626c61636b5f77686974652e737667"></a>
+
 ### 📌 Dataset Overview:
 For this Project, I have used 2 Types of Data as mentioned below:
 <ul>
@@ -15,42 +19,42 @@ For this Project, I have used 2 Types of Data as mentioned below:
 
 ### 📌 The Project is divided into 3 Parts: 🎯
 
-🧩 **Real-Time User Authentication & Authorization via Firebase & Show/Post Posts via Firestore on Streamlit App**
+🧩 **Real-Time User Authentication & Authorization via Firebase & Show/Post Posts via Firestore on Streamlit App** ⇢ [ Visit Streamlit_App Folder ]
 <ul>
 <li>Any User can First Sign Up with an Email, Password, and unique Username and then log in to the Web App - Make Sure that the Email and username are different for each User - at the Backend I have used Firebase.
 <li>Users has the option to post their thoughts or Queries in Post Notes Space, also they can see other People's Posts & can delete their Posts according to their Need. I have used Firestore (No SQL Real Time Database) which stores the data in Documents [ Unique Username ] and it includes a Collection that has Post's ordered w.r.t User_ID for each User.
 </ul>
 
-🧩 **Analytic Platform with End - end-end data Pipeline For Trending YouTube Video Statistics via Aws Services**
+🧩 **Analytic Platform with End - end-end data Pipeline For Trending YouTube Video Statistics via Aws Services** ⇢ [ Visit ETL_AWS Folder ]
 
 -- in making 
 
-🧩 **Youtube Data Scrapping & Performing Data Wrangling, Pre-Processing, EDA & Text Mining - NLP Tasks on the Youtube Data to predict to which Category the Video Belongs!!**
+🧩 **Youtube Data Scrapping & Performing Data Wrangling, Pre-Processing, EDA & Text Mining - NLP Tasks on the Youtube Data to predict to which Category the Video Belongs!!** ⇢ [ Visit DataScrapping_Viz_Nlp_Tasks Folder ]
 
-This Section is further divided into 2 Parts
+This Section is further divided into 2 Parts:
 
-a. Scrapping Youtube data, Pre-Processing, Wrangling, and visualizing Data via different Charts and graphs.
-1.  Youtube data is scrapped by using Youtube Data API according to search Data Science & we have Attributes such as:
-a. For Channel Data
-such as Channel Name, subscribers, Total Views, Total Videos, Playlist ID
-2.  For each Channel Attributes such as 
-Video title, Video id, Video Description, Published date, Likes, Dislikes, Views, Comments
-3.  After that I Performed Data Processing, Wrangling operations on the Data mentioned above & then Performed EDA (uni, Bi, Tri) Variate Data Visualization on the cleaned Data
+▶️ **Scrapping Youtube data, Pre-Processing, Wrangling, and Visualizing Data via different Charts & Graphs.**
 
-B.📄🔍 Text Mining - Performing NLP Tasks on the Youtube Statistics Data
-🧩 For Great Britain Country .csv File
-💬 NLP Tasks
+Youtube data is scrapped by using Youtube Data API according to search Data Science & we have Attributes such as:
+<ul>
+<li> For Different Channel's Data:
+Attributes s.a. Channel Name, subscribers, Total Views, Total Videos, Playlist ID
+<li> For each Channel Data:
+Attributes s.a. Video title, Video id, Video Description, Published date, Likes, Dislikes, Views, Comments
+<li> After that I Performed Data Processing, Wrangling operations on the Data mentioned above & then Performed EDA (uni, Bi, Tri) Variate Data Visualization on the Cleaned Data
+</ul>
+
+📄🔍 **Text Mining - Performing NLP Tasks on the Youtube Statistics Data**
+
 Predict the Category_id (Y) Based on Video_Title (X)
-Text Pre Processing 1 -- Tokenize [Sentences, Words] ➡️ Text Cleaning { Regex - remove Punctuations, Special Chars, extra white spaces} ➡️ Remove StopWords ➡️ Stemming & Lemmatization ➡️ POS Tagging ➡️ NER
-Text Pre Processing 2 -- Word Embeddings { Ml Embeddings - BOW, TF-IDF, Word2Vec, DL Embeddings - LSTM/ Bi - Dir LSTM with Word Embeddings }
-Model Building & Training
-Evaluation and tuning of Parameters
-Comparing all the Word Embeddings Model
-At the end map the Category_id to 16 different Category Name  
-
-### Demo app Link
-
-<a href="https://youtube-data-mining-analysis.streamlit.app/"><img src="https://camo.githubusercontent.com/767be70c92254555bd347ab07908fec67854c2264b77702581bd230fd7eac54f/68747470733a2f2f7374617469632e73747265616d6c69742e696f2f6261646765732f73747265616d6c69745f62616467655f626c61636b5f77686974652e737667"></a>
+<ul>
+<li> Text Pre Processing 1 -- Tokenize [Sentences, Words] ➡️ Text Cleaning { Regex - remove Punctuations, Special Chars, extra white spaces} ➡️ Remove StopWords ➡️ Stemming & Lemmatization ➡️ POS Tagging ➡️ NER
+<li> Text Pre Processing 2 -- Word Embeddings { Ml Embeddings - BOW, TF-IDF, Word2Vec, DL Embeddings - LSTM/ Bi - Dir LSTM with Word Embeddings }
+<li> Model Building & Training
+<li> Evaluation and tuning of Parameters
+<li> Comparing all the Word Embeddings Model
+<li> At the end map the Category_id to 16 different Category Name s.a [ Film & Animations, Sports, Science & Technology, Entertainment, Music, News, Daily Vlogs ] etc.
+</ul>
 
 ### Watch the Below Video for working of the App
 

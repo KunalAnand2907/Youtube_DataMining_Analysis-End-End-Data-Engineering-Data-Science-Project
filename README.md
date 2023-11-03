@@ -10,7 +10,7 @@ For this Project, I have used 2 Types of Data as mentioned below:
 <b>1. Csv File - </b>Each region’s data is in a separate file. Data includes the video title, channel title, publish time, tags, views, likes and dislikes, description, and comment count. <br>
 <b>2. Json File -</b> Is in Key-Value format, where for each Region it has 30 nested K-V Pairs which include the id as a Primary Key and Channel_id & Category Name where the videos are categorized into different categories like Film & Animations, Sports, Science & Technology, Entertainment, Music & Many More etc. 
 
-<li> Youtube Data Scrapped via Youtube Data API according to the search word entered by the user, for our case I have used as 'Data Science'
+<li> <b>Youtube Data Scrapped via Youtube Data API </b> according to the search word entered by the user, for our case I have used as 'Data Science'
 </ul>
 
 ### Demo app Link

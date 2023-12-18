@@ -19,25 +19,32 @@ For this Project, I have used 2 Types of Data as mentioned below:
 
 ### 📌 The Project is divided into 3 Parts: 🎯
 
-🧩 **Real-Time User Authentication & Authorization via Firebase & Show/Post Posts via Firestore on Streamlit App** ⇢ [ Visit Streamlit_App Folder ]
+🧩 **1. Real-Time User Authentication & Authorization via Firebase & Show/Post Posts via Firestore on Streamlit App** ⇢ [ Visit Streamlit_App Folder ]
 <ul>
 <li>Any User can First Sign Up with an Email, Password, and unique Username and then log in to the Web App - Make Sure that the Email and username are different for each User - at the Backend I have used Firebase.
 <li>Users has the option to post their thoughts or Queries in Post Notes Space, also they can see other People's Posts & can delete their Posts according to their Need. I have used Firestore (No SQL Real Time Database) which stores the data in Documents [ Unique Username ] and it includes a Collection that has Post's ordered w.r.t User_ID for each User.
 </ul>
 
-🧩 **Analytic Platform with end - end ETL Data Pipeline For Trending YouTube Video Statistics via Aws Services** ⇢ [ Visit ETL_AWS Folder ]
+🧩 **2. Analytic Platform with end - end ETL Data Pipeline For Trending YouTube Video Statistics via Aws Services** ⇢ [ Visit ETL_AWS Folder ]
 
-#### 📌 Part 2 Project Overview
+#### 📌 Overview
 
+This part aims to securely manage, streamline, and perform analysis on the Structured and Semi-Structured YouTube video data based on the many trending metrics such as video categories (Entertainment, Science and fiction, etc), Video Tile and desc, Channel Name & ID, Likes & Description, Comments & its Count.
 
-Detailed Workflow Link: https://drive.google.com/drive/u/0/folders/19idDsEe7xafxWRVmEaYkRSfAbbYlmCbb
+####  📌 Brief Workflow
+
+For this, I have built the ETL Data Pipeline from Scratch, where I loaded raw .json Files & .csv Files w.r.t different regions in 1. Raw_S3_Bucket ➡️ Created a Glue Catalog while running the crawler on raw JSON file ➡️ Got an error as it had a struct Array Items ➡️ Pre-Processed Data for all. Json  Files converted into Parquet Format & stored into a new 2. S3_Cleansed_Bucket by automatically triggering the Lambda Function on S3 Put ➡️ Again Created a Glue Catalog on Cleansed Parquet Files for different Regions ➡️ Similarly Created a Glue Catalog by running Glue Crawler on all the .csv files by partitioning them w.r.t regions ➡️ Joined the 2 Catalog's by Inner Join on Category_Id Col [PK & Fk] & ran the Glue Spark Job and stored the Queried Data in new 3. S3_Analytic_Bucket ➡️ For Querying the Data present in different S3 Bucket used Athena and stored the metaand & Output Table in new 4. S3_Query_Athena_Output Bucket ➡️ At the end used the Data from the Analytic S3 Bucket to create Interactive Dashboards having Imp KPIs and various Graphs and charts answering Question such as Top 10/ Bottom 10 Trending videos w.r.t Region and all around the Globe, Total Views/ Total Likes/ Total Comment Count w.r.t Different Categories etc.
+
+--> Detailed Workflow Link: https://drive.google.com/drive/u/0/folders/19idDsEe7xafxWRVmEaYkRSfAbbYlmCbb
 
 #### 📌 Architecture Diagram
 
 ![new](https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/f8269bb3-ae27-4edc-9521-2a2ba8486a77)
 
 📌 Tech Stack:
+
 ➔ Languages- SQL, Python3
+
 ➔ File Formats-Json, Parquet, Csv
 
 ➔ Services:
@@ -52,7 +59,7 @@ Detailed Workflow Link: https://drive.google.com/drive/u/0/folders/19idDsEe7xafx
 <li>AWS Cloudwatch & Logs: It enables you to monitor your complete stack (applications, infrastructure, network, and services) and use alarms, logs, and events data to take automated actions and reduce mean time to resolution (MTTR). This frees up important resources and allows you to focus on building applications and business value.
 </ul>
 
-🧩 **Youtube Data Scrapping & Performing Data Wrangling, Pre-Processing, EDA & Text Mining - NLP Tasks on the Youtube Data to predict to which Category the Video Belongs!!** ⇢ [ Visit DataScrapping_Viz_Nlp_Tasks Folder ]
+🧩 **3. Youtube Data Scrapping & Performing Data Wrangling, Pre-Processing, EDA & Text Mining - NLP Tasks on the Youtube Data to predict to which Category the Video Belongs!!** ⇢ [ Visit DataScrapping_Viz_Nlp_Tasks Folder ]
 
 This Section is further divided into 2 Parts:
 

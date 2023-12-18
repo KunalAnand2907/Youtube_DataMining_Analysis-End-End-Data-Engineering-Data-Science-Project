@@ -1,0 +1,54 @@
+1. aws console link - for kunal-project
+https://161609743808.signin.aws.amazon.com/console
+
+2. S3 Commands
+aws s3 cp . s3://de-on-yt-raw-us-east1-dev/youtube/raw_statistics_reference_data/ --recursive --exclude "*" --include "*.json"
+
+aws s3 cp CAvideos.csv s3://de-on-yt-raw-us-east1-dev/youtube/raw_statistics/region=ca/
+aws s3 cp DEvideos.csv s3://de-on-yt-raw-us-east1-dev/youtube/raw_statistics/region=de/
+aws s3 cp FRvideos.csv s3://de-on-yt-raw-us-east1-dev/youtube/raw_statistics/region=fr/
+aws s3 cp GBvideos.csv s3://de-on-yt-raw-us-east1-dev/youtube/raw_statistics/region=gb/
+aws s3 cp INvideos.csv s3://de-on-yt-raw-us-east1-dev/youtube/raw_statistics/region=in/
+aws s3 cp MXvideos.csv s3://de-on-yt-raw-us-east1-dev/youtube/raw_statistics/region=mx/
+aws s3 cp USvideos.csv s3://de-on-yt-raw-us-east1-dev/youtube/raw_statistics/region=us/
+
+3. Glue - Basic Glue Catalog
+
+A.) Raw Glue Catalog on Json Files 
+
+name- de-on-yt-raw-glue-Catalog1
+Role for Glue accessing s3 - de-on-yt-glue-s3-Role - s3fullaccess, glueservicerole
+
+DB 1  Name - de_youtube_raw
+Table Name - raw_statistics_reference_data
+Athena s3 Bucket Query Results Storage Path - de-on-yt-raw-us-east1--athena-job
+
+B.)
+Lambda Function: de-on-yt-raw-us-east1-Lambda-Json-Parquet
+Role for lambda: de-on-yt-raw-us-east1-s3/glue-lambda-role
+
+Lambda Fn - will store the transformed Parquet format data into cleansed Bucket - s3://de-on-yt-clean-useast1-dev/youtube/
+
+add layer via arn AWSSDKPandas-Python3.8 version 12
+no change required for awswrangler to awssdkpandas
+timeout to 3 min 
+
+List of environment variables
+
+glue_catalog_db_name = db_youtube_cleaned
+glue_catalog_table_name = cleaned_statistics_reference_data
+s3_cleansed_layer = s3://de-on-yt-clean-useast1-dev/youtube/
+write_data_operation = append
+
+So after deploying and running the code we get the appended all json files into 1 table in parquet format - data is stored in de-on-yt-clean-useast1-dev
+
+C.) 
+Glue Catalog for .csv Files
+
+Crawler Name: de-on-yt-raw-csv-Crawler-2
+same iam role
+db name - de_youtube_raw
+TABLE NAME - raw_statistics
+
+
+D.) 

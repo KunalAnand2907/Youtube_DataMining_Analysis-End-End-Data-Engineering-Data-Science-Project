@@ -2,7 +2,7 @@
 
 ### 📌 Demo app Link 
 
-<a href="https://youtube-data-mining-analysis.streamlit.app/"><img src="https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/6f9f5198-77a5-4df4-8f90-44d19a72e680" width ="120" height="24" ></a>
+<a href="https://youtube-data-mining-analysis.streamlit.app/"><img src="https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/4f490ebc-1c79-4b10-b869-cf319682598e"></a>
 
 
 ### 📌 Dataset Overview:
@@ -40,7 +40,7 @@ For this, I have built the ETL Data Pipeline from Scratch, where I loaded raw .j
 
 #### 📌 Architecture Diagram
 
-![new](https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/f8269bb3-ae27-4edc-9521-2a2ba8486a77)
+![Arch_Youtube](https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/b7f2bbdc-c4a0-4645-b34d-a42d9895ed61)
 
 📌 Tech Stack:
 

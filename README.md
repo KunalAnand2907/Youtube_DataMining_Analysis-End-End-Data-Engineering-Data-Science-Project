@@ -28,21 +28,21 @@ For this Project, I have used 2 Types of Data as mentioned below:
 
 🧩 **2. Analytic Platform with end - end ETL Data Pipeline For Trending YouTube Video Statistics via Aws Services** ⇢ [ Visit ETL_AWS Folder ]
 
-#### 📌 Overview
+#### 📚 Overview
 
 This part aims to securely manage, streamline, and perform analysis on the Structured and Semi-Structured YouTube video data based on the many trending metrics such as video categories (Entertainment, Science and fiction, etc), Video Tile and desc, Channel Name & ID, Likes & Description, Comments & its Count.
 
-####  📌 Brief Workflow
+####  📚 Brief Workflow
 
 For this, I have built the ETL Data Pipeline from Scratch, where I loaded raw .json Files & .csv Files w.r.t different regions in 1. Raw_S3_Bucket ➡️ Created a Glue Catalog while running the crawler on raw JSON file ➡️ Got an error as it had a struct Array Items ➡️ Pre-Processed Data for all. Json  Files converted into Parquet Format & stored into a new 2. S3_Cleansed_Bucket by automatically triggering the Lambda Function on S3 Put ➡️ Again Created a Glue Catalog on Cleansed Parquet Files for different Regions ➡️ Similarly Created a Glue Catalog by running Glue Crawler on all the .csv files by partitioning them w.r.t regions ➡️ Joined the 2 Catalog's by Inner Join on Category_Id Col [PK & Fk] & ran the Glue Spark Job and stored the Queried Data in new 3. S3_Analytic_Bucket ➡️ For Querying the Data present in different S3 Bucket used Athena and stored the metaand & Output Table in new 4. S3_Query_Athena_Output Bucket ➡️ At the end used the Data from the Analytic S3 Bucket to create Interactive Dashboards having Imp KPIs and various Graphs and charts answering Question such as Top 10/ Bottom 10 Trending videos w.r.t Region and all around the Globe, Total Views/ Total Likes/ Total Comment Count w.r.t Different Categories etc.
 
 --> Detailed Workflow Link: https://drive.google.com/drive/u/0/folders/19idDsEe7xafxWRVmEaYkRSfAbbYlmCbb
 
-#### 📌 Architecture Diagram
+#### 🚀 Architecture Diagram
 
 ![Arch_Youtube](https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/b7f2bbdc-c4a0-4645-b34d-a42d9895ed61)
 
-📌 Tech Stack:
+📚 Tech Stack:
 
 ➔ Languages- SQL, Python3
 

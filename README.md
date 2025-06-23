@@ -2,7 +2,7 @@
 
 ### 📌 Demo app Link 
 
-<a href="https://youtube-data-mining-analysis.streamlit.app/"><img src="https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/4f490ebc-1c79-4b10-b869-cf319682598e"></a>
+<a href="https://youtu.be/GaeUzR9szVM"><img src="https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/4f490ebc-1c79-4b10-b869-cf319682598e"></a>
 
 
 ### 📌 Dataset Overview:

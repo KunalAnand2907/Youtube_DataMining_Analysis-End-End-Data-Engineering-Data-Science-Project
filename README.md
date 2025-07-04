@@ -40,7 +40,7 @@ For this, I have built the ETL Data Pipeline from Scratch, where I loaded raw .j
 
 #### 🚀 Architecture Diagram
 
-![Arch_Youtube](https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/b7f2bbdc-c4a0-4645-b34d-a42d9895ed61)
+![ETL_AWS](https://github.com/user-attachments/assets/c8efa182-ca19-4680-b121-d2709c8c1d9f)
 
 📚 Tech Stack:
 

@@ -197,6 +197,10 @@ This Streamlit app uses a multilingual BERT (transformer) model to classify YouT
 
 > **[🔗 Watch the Workflow & Demo in Action](https://github.com/KunalAnand2907/Youtube-Comments-Sentiment-Analyzer/)**
 
+---
+
+**5️⃣ KunBot AI Assistant! 🤖 -** Interactive Conversational Bot that makes exploring the project, related queries, features, workflow, & tech stack effortless ....
+
 # 
 ### ⚡ Experience the app in action—watch the video below!
 

@@ -178,7 +178,7 @@ Title, Description, Video ID, Publish Date, Likes, Dislikes, Views, Comments
 <li>Transformers/ LSTM Based: Open AI Embedder, Ollama, Gemini, Hugging Face, Elmmo, Qdrant 
 </ul>
 
-#### 🤖 Model Development & Evaluation
+#### 🏗️ Model Development & 🔄 Evaluation
 <ul>
 <li>Training supervised models to predict Category_ID (Y) from Video Title (X)
 <li>Hyperparameter tuning and performance comparison across multiple embedding strategies

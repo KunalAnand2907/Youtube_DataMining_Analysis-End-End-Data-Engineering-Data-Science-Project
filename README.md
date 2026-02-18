@@ -26,7 +26,7 @@ This project utilizes data collected through two different sources:
 ### 🚀 Key Features:
 
 <ul>
-<li>An interactive chatbot that makes exploring the <code>project | any related questions | its features | workflow | tech stack</code> effortless
+<li>An interactive chatbot that makes exploring the <code>project | any related questions | its features | workflow | understanding tech stack</code> effortless
 <li>Automated scraping of <code>YouTube metadata | comments | channel insights</code> using Python-based ETL
 <li>Serverless ingestion pipeline built with <code>AWS (Lambda | S3 | CloudWatch)</code> for scalable execution
 <li>Real-time text preprocessing <code>(tokenization | regex cleaning | stopwords | stemming | lemmatization)</code>
@@ -199,7 +199,7 @@ This Streamlit app uses a multilingual BERT (transformer) model to classify YouT
 
 ---
 
-**5️⃣ KunBot AI Assistant! 🤖 -** Interactive Conversational Bot that makes exploring the project, related queries, features, workflow, & tech stack effortless ....
+**5️⃣ KunBot AI Assistant! 🤖 -** Interactive Conversational Bot that makes exploring the project, related queries, features, workflow, & understanding tech stack effortless ....
 
 # 
 

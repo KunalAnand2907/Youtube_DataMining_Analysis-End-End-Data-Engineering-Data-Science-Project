@@ -67,7 +67,7 @@ This project utilizes data collected through two different sources:
 
 #
 
-### 🎯 The Project is divided into 4 Parts:
+### 🎯 The Project is divided into 5 Verticals:
 
 ---
 
@@ -205,8 +205,8 @@ This Streamlit app uses a multilingual BERT (transformer) model to classify YouT
 
 **🚀 Future Initiatives** ~ What lies ahead:🌟
 
-1.
-2.
+1. An Personal assistant for generating Multilingual Video Timestamps
+2. Personalized GIF Maker: Converting video to animated GIF Images [based on duration, speed playback, resolution scaling, image specs, fps, etc.] 
 
 #
 ### ⚡ Experience the app in action—watch the video below!

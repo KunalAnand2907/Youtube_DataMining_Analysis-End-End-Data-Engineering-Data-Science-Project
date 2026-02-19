@@ -205,7 +205,7 @@ This Streamlit app uses a multilingual BERT (transformer) model to classify YouT
 
 **🚀 Future Initiatives** ~ What lies ahead:🌟
 
-1. An Personal assistant for generating Multilingual Video Timestamps
+1. A personal assistant for generating Multilingual Video Timestamps
 2. Personalized GIF Maker: Converting video to animated GIF Images [based on duration, speed playback, resolution scaling, image specs, fps, etc.] 
 
 #

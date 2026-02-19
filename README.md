@@ -201,6 +201,10 @@ This Streamlit app uses a multilingual BERT (transformer) model to classify YouT
 
 **5️⃣ KunBot AI Assistant! 🤖 -** Interactive Conversational Bot that makes exploring the project, related queries, features, workflow, & understanding tech stack effortless ....
 
+> 🌨️ Ask questions related to the project to the bot, uses an efficient low latency & high 
+performant bot answering questions after understanding semantic, contextual meanings & 
+applying added LLM intelligence on top of it.  
+
 # 
 
 **🚀 Future Initiatives** ~ What lies ahead:🌟

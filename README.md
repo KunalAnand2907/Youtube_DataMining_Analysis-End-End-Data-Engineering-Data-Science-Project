@@ -211,4 +211,4 @@ This Streamlit app uses a multilingual BERT (transformer) model to classify YouT
 #
 ### ⚡ Experience the app in action—watch the video below!
 
-[![Main_Page_ss](https://github.com/KunalAnand2907/Youtube_DataMining_Analysis-End-End-Data-Engineering-Data-Science-Project/assets/46574881/b480838d-991b-4387-994c-bb3c90e9a081)](https://youtu.be/GaeUzR9szVM)
+[![Landing_Page](https://github.com/KunalAnand2907/Youtube-Data-Mining-Analytics-End-End-Data-Engineering-Data-Science-Project/blob/master/Landing_Page.png)](https://youtu.be/GaeUzR9szVM)

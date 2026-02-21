@@ -192,7 +192,7 @@ This section showcases the full lifecycle—from raw YouTube data → structured
 
 **4️⃣ YouTube Comments Sentiment Analyzer**
 
-> 🔥 *Analyze, visualize, and understand YouTube audience sentiment for yor videos in one click!*
+> 🔥 *Analyze, visualize, and understand YouTube audience sentiment for your videos in one click!*
 This Streamlit app uses a multilingual BERT (transformer) model to classify YouTube comments as Positive, Neutral, or Negative, while automatically filtering spam and generating insights through charts, word clouds, and top comment (top 5 +ve, -ve & neutral) highlights with a <code> Download csv File </code> button to store sentiment insights locally.
 
 > **[🔗 Watch the Workflow & Demo in Action](https://github.com/KunalAnand2907/Youtube-Comments-Sentiment-Analyzer/)**
